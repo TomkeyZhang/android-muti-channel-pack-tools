@@ -4,8 +4,9 @@ android-muti-channel-pack-tools
 android多渠道打包工具，支持工程引用library project
 注：此工具仅支持windows
 -----------------------------------
-运行环境：需安装java，ant和android sdk，同时配置相关环境变量，保证在命令行下命令java，ant，android，aaapt，jarsigner，zipalign均可以执行
+运行环境：
 -----------------------------------
+需安装java，ant和android sdk，同时配置相关环境变量，保证在命令行下命令java，ant，android，aaapt，jarsigner，zipalign均可以执行
 使用方法：
 -----------------------------------
 ###	1. 将app-root下的文件复制到你的app工程根目录下，
