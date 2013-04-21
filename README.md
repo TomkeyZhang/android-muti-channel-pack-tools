@@ -11,8 +11,9 @@ android多渠道打包工具，支持工程引用library project
 ###	1. 将app-root下的文件复制到你的app工程根目录下，
 ###	2. 修改channels.txt添加你需要得渠道
 ###	3. 修改keystore.bat填写签名相关信息
-###	4. 在你的AndroidManifest.xml文件中添加待替换的渠道标识，比如使用友盟的话添加<meta-data android:name="UMENG_CHANNEL" android:value="channel_name" />
-	   工具在运行的过程中会将channel_name替换成你在channels.txt中定义的渠道
+###	4. 在你的AndroidManifest.xml文件中添加待替换的渠道标识，比如使用友盟的话添加
+	<meta-data android:name="UMENG_CHANNEL" android:value="channel_name" />
+	工具在运行的过程中会将channel_name替换成你在channels.txt中定义的渠道
 ###	5. 在命令行模式下进入到app工程根目录，输入main，根据你的工程的复杂程度和渠道的数量，可能需要等待一段时间
 ###	6. 命令执行完成后，可以到apk-release目录下查看多渠道安装包
 ###	7. 以后每次需要多渠道安装包时，只需要做第5，6步即可
